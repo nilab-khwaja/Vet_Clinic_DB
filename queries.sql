@@ -7,14 +7,27 @@ SELECT name, escape_attempts FROM animals WHERE weight_kg > 10.5;
 SELECT * FROM animals WHERE neutered = true;
 SELECT * FROM animals WHERE name != 'Gabumon';
 SELECT * FROM animals WHERE weight_kg BETWEEN  10.5 AND 17.3;
+
+BEGIN;
 UPDATE animals SET species = 'unspecified';
+SELECT species from animals; 
+ROLLBACK;
+SELECT species from animals
+
 BEGIN ;
 UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
 UPDATE animals SET species = 'pokimon' WHERE species IS NULL;
-COMMIT ;
+SELECT species from animals; 
+COMMIT;
+SELECT species from animals;
+
 BEGIN;
+SELECT COUNT(*) FROM ANIMALS;
 DELETE FROM animals;
 ROLLBACK;
+SELECT COUNT(*) FROM ANIMALS;
+
+
 BEGIN;
 DELETE FROM animals WHERE date_of_birth > '2022-01-01';
 SAVEPOINT delete_savepoint;
