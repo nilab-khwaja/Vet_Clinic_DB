@@ -26,7 +26,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -152,7 +151,8 @@ I would like to thank the Microverse Team.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Chandan-devs-tech/Vet-clinic-database/blob/feature/update-animals/Mit.md) licensed.
+
+This project is [MIT](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
