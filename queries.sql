@@ -50,4 +50,4 @@ SELECT o.full_name , a.name AS animal_name FROM owners o JOIN animals a ON a.own
 SELECT s.name, COUNT(a.id) AS animal_count FROM species s LEFT JOIN animals a ON s.id = a.species_id GROUP BY s.name;
 SELECT o.full_name ,COUNT(a.id) AS animal_count FROM owners o LEFT JOIN animals a ON a.owner_id = o.id GROUP BY o.full_name ORDER BY animal_count DESC LIMIT 1;
 SELECT a.name FROM animals a JOIN owners o ON a.owner_id = o.id WHERE o.full_name = ' Dean Winchester' AND a.escape_attempts = 0;
-SELECT a.name FROM animals a JOIN owners o ON a.owner_id = o.id JOIN species s  ON a.species_id = s.id WHERE  o.full_name = 'JEnnifer orwell' AND s.name = 'Digimon';
+SELECT a.name FROM animals a JOIN owners o ON a.owner_id = o.id JOIN species s  ON a.species_id = s.id WHERE  o.full_name = 'Jennifer Orwell' AND s.name = 'Digimon';
