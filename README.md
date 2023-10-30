@@ -106,11 +106,6 @@ Install postgreSQL [https://www.postgresql.org/download/]
 - Twitter: [@nilab](https://x.com/NilabKhwajazada?t=hEkqy2CCNFOIfGtbmD2gLA&s=35)
 - LinkedIn: [@nilab-khwajazada](https://www.linkedin.com/in/nilab-khwajazada)
 
-👤 **Md Mahadi Hasan Rifat**
-
-- GitHub: [@Md Mahadi Hasan Rifat](https://github.com/Rifat8080)
-- Twitter: [@Md Mahadi Hasan Rifat](https://twitter.com/mdmahadirifat98)
-- LinkedIn: [@Md Mahadi Hasan Rifat](https://www.linkedin.com/in/mdmahadihasanrifat/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
